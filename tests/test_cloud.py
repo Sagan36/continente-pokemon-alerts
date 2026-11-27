@@ -1,6 +1,7 @@
 import base64
 import copy
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
@@ -36,6 +37,22 @@ class MemoryRemote:
 
 
 class CloudTests(unittest.TestCase):
+    def test_manual_cloud_test_sends_after_success(self):
+        env = {"GITHUB_REPOSITORY": "owner/repo", "GITHUB_TOKEN": "test-token",
+               "GITHUB_SHA": "a" * 40, "NTFY_TOPIC": "test-topic-0123456789", "SEND_TEST_ALERT": "true"}
+        with patch.dict(os.environ, env, clear=True), patch.object(c, "run", return_value=0), \
+             patch.object(w, "notify", return_value="accepted") as send:
+            self.assertEqual(c.main(), 0)
+            send.assert_called_once()
+
+    def test_scheduled_checks_do_not_send_test_alerts(self):
+        env = {"GITHUB_REPOSITORY": "owner/repo", "GITHUB_TOKEN": "test-token",
+               "GITHUB_SHA": "a" * 40, "NTFY_TOPIC": "test-topic-0123456789"}
+        with patch.dict(os.environ, env, clear=True), patch.object(c, "run", return_value=0), \
+             patch.object(w, "notify") as send:
+            self.assertEqual(c.main(), 0)
+            send.assert_not_called()
+
     def test_cloud_outbox_is_committed_before_sending(self):
         remote = MemoryRemote()
         def delivered(*args, **kwargs):

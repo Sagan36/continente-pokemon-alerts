@@ -1,6 +1,7 @@
 CONTINENTE POKEMON ALERTS - CLOUD VERSION
 
-Prepared for GitHub Actions. This package is not deployed yet.
+Deployed repository:
+https://github.com/Sagan36/continente-pokemon-alerts
 
 The scheduled cloud job works independently of your PC and sends alerts to the
 same ntfy phone subscription. It reuses the tested product matching and stock
@@ -34,7 +35,8 @@ DEPLOYMENT
    version's SUBSCRIBE.txt. Never put a GitHub token or topic into source files.
 4. Under Actions, enable workflows if GitHub asks. The workflow's contents:write
    permission is required to save product history on the monitor-state branch.
-5. Open Actions > Continente Pokemon alerts > Run workflow. Check that the run
+5. Open Actions > Continente Pokemon alerts > Run workflow. Select the test
+   phone alert option to verify delivery from the cloud. Check that the run
    finishes successfully and creates the monitor-state branch.
 6. Once the cloud test succeeds, run STOP.cmd in the Windows watcher folder.
    Otherwise both copies could send the same alerts.

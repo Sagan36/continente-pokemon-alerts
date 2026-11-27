@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '2-57/5 * * * *'
   workflow_dispatch:
+    inputs:
+      send_test:
+        description: Send a test phone alert after a successful scan
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,4 +38,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SEND_TEST_ALERT: ${{ inputs.send_test }}
         run: python cloud_run.py

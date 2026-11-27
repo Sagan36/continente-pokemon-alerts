@@ -136,7 +136,11 @@ def main():
                   "watch_urls": [w.SEED]}
         remote = GitHubState(os.environ.get("GITHUB_REPOSITORY", ""),
                              os.environ.get("GITHUB_TOKEN", ""), os.environ.get("GITHUB_SHA", ""))
-        return run(remote, config, root / ".runtime", root / "baseline.json")
+        result = run(remote, config, root / ".runtime", root / "baseline.json")
+        if result == 0 and os.environ.get("SEND_TEST_ALERT") == "true":
+            w.notify(config, "Cloud Pokemon alerts are connected", "This test was sent from GitHub's cloud runner. Your Continente watcher can check while your PC is switched off. Scheduled checks target every five minutes, but GitHub can delay them.")
+            w.LOG.info("Cloud test notification accepted by ntfy")
+        return result
     except Exception as exc:
         w.LOG.error("Cloud setup failed: %s", w.error_summary(exc))
         return 1

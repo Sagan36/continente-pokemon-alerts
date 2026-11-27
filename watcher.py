@@ -1,4 +1,4 @@
-"""Continente Pokemon alerts. Python 3.11+, no third-party packages."""
+"""Continente Pokemon Cartas TCG alerts. Python 3.11+, no third-party packages."""
 from __future__ import annotations
 
 import argparse
@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent
 SEARCH = "https://www.continente.pt/pesquisa/?q=pokemon"
 SEED = "https://www.continente.pt/produto/pokemon---cartas-tcg-sleeved-booster-delta-reign-9041780.html"
 LOG = logging.getLogger("pokemon")
+PRODUCT_SCOPE = "pokemon-cartas-tcg-v1"
 
 
 class MonitorError(Exception):
@@ -34,8 +35,9 @@ def now():
 
 
 def pokemon(text):
+    """Only titles containing the separate words Pokemon, Cartas and TCG."""
     plain = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
-    return "pokemon" in plain
+    return {"pokemon", "cartas", "tcg"}.issubset(set(re.findall(r"[a-z0-9]+", plain)))
 
 
 def valid_product_url(url):
@@ -193,9 +195,10 @@ def scan(config):
     for seed_url in config.get("watch_urls", [SEED]):
         time.sleep(config.get("request_delay_seconds", 1.5))
         p = detail(seed_url)
-        products[p["id"]] = p
+        if pokemon(p["name"]):
+            products[p["id"]] = p
     if not products:
-        raise MonitorError("No Pokemon products found")
+        raise MonitorError("No Pokemon Cartas TCG products found")
     return products, len(visited)
 
 
@@ -249,9 +252,25 @@ def notify(config, title, message, url=SEARCH, priority=3):
     return result["id"]
 
 
+def scope_state(state):
+    """Migrate broad Pokemon history and pending alerts to the TCG-only scope."""
+    updated = copy.deepcopy(state)
+    updated["products"] = {pid: p for pid, p in updated.get("products", {}).items()
+                           if pokemon(p["name"])}
+    updated["pending"] = [event for event in updated.get("pending", [])
+                          if pokemon(event["product"]["name"])]
+    if state.get("product_scope") != PRODUCT_SCOPE:
+        # A deliberate scope reduction must not trip the partial-scan guard.
+        stamp = state.get("last_success")
+        updated["last_count"] = sum(p.get("last_seen") == stamp for p in updated["products"].values()) if stamp else len(updated["products"])
+        updated["product_scope"] = PRODUCT_SCOPE
+    return updated
+
+
 def plan_events(state, products):
     """Update last-known stock only on known values; absence never means sold out."""
-    updated = copy.deepcopy(state)
+    updated = scope_state(state)
+    products = {pid: p for pid, p in products.items() if pokemon(p["name"])}
     known = updated.setdefault("products", {})
     pending = updated.setdefault("pending", [])
     stamp = now()
@@ -281,7 +300,7 @@ def plan_events(state, products):
 
 def event_message(event):
     p = event["product"]
-    title = "Continente: back in stock!" if event["kind"] == "restock" else "Continente: new Pokemon product"
+    title = "Continente: Pokemon TCG back in stock!" if event["kind"] == "restock" else "Continente: new Pokemon TCG product"
     stock = {True: "Listed as in stock", False: "Listed, currently out of stock", None: "Stock not confirmed"}[p.get("in_stock")]
     price = f"EUR {float(p['price']):.2f}" if p.get("price") is not None else "Price unavailable"
     message = f"{p['name']}\n{price} | {stock}\n{p['url']}\nDetected: {event['detected_at']}\nAvailability may vary by delivery address."
@@ -308,7 +327,11 @@ def drain_pending(config, state, state_path):
 
 def check_once(config):
     path = ROOT / "state.json"
-    old = load_json(path, {"products": {}, "pending": [], "initialized": False})
+    stored = load_json(path, {"products": {}, "pending": [], "initialized": False})
+    old = scope_state(stored)
+    if old != stored:
+        save_json(path, old)
+        LOG.info("Applied Cartas TCG filter to product history and pending alerts")
     # Retry already committed notifications even when the shop is unavailable.
     delivery_error = None
     if old.get("pending"):

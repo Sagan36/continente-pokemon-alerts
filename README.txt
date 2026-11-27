@@ -1,5 +1,10 @@
 CONTINENTE POKEMON ALERTS - CLOUD VERSION
 
+CURRENT FILTER: Only product titles containing the separate words Pokemon,
+Cartas and TCG, ignoring accents, case and punctuation. Example: Pokemon -
+Cartas TCG Mega Evolution Perfect Order Blister. Other Pokemon merchandise
+is excluded. The same rule applies to watched URLs and old queued alerts.
+
 Deployed repository:
 https://github.com/Sagan36/continente-pokemon-alerts
 

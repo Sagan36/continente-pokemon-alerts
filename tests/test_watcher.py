@@ -11,12 +11,12 @@ import watcher as w
 
 
 def product(pid="123", stock=False):
-    return {"id": pid, "name": "Pokemon cards", "price": 5.99,
+    return {"id": pid, "name": "Pokemon - Cartas TCG Booster", "price": 5.99,
             "url": f"https://www.continente.pt/produto/pokemon-{pid}.html", "in_stock": stock}
 
 
 def tile(pid="123", out=False, button=True):
-    data = json.dumps({"id": pid, "name": "Pok\u00e9mon cards", "price": 5.99})
+    data = json.dumps({"id": pid, "name": "Pok\u00e9mon - Cartas TCG Booster", "price": 5.99})
     cls = "ct-product-tile-out-of-stock" if out else ""
     cart = '<button class="js-add-to-cart-tile">Add to cart</button>' if button else ''
     return f'''<div class="product-tile {cls}" data-product-tile-impression='{data}'>
@@ -164,10 +164,51 @@ class BehaviourTests(unittest.TestCase):
                     w.check_once({})
             self.assertEqual(w.load_json(path), original)
 
-    def test_accented_and_plain_names_match(self):
-        self.assertTrue(w.pokemon("Pok\u00e9mon cards"))
-        self.assertTrue(w.pokemon("Pokemon game"))
-        self.assertFalse(w.pokemon("Other trading cards"))
+    def test_only_pokemon_cartas_tcg_names_match(self):
+        for name in ["Pok\u00e9mon - Cartas TCG Mega Evolution Perfect Order Blister",
+                     "Pokemon - Cartas TCG Booster", "POK\u00c9MON - CARTAS TCG: MINI LATAS",
+                     "Pok\u00e9mon - Cartas: TCG Pack 3 Blisters"]:
+            with self.subTest(name=name):
+                self.assertTrue(w.pokemon(name))
+        for name in ["LEGO Pok\u00e9mon - Eevee", "Funko - Figura Pok\u00e9mon - Pikachu",
+                     "Pok\u00e9mon Peluche", "Jogo Nintendo Switch Pok\u00e9mon",
+                     "Puzzle Pok\u00e9mon", "Other trading cards", "Pok\u00e9mon TCG puzzle",
+                     "Pok\u00e9mon - Cartas", "Pokemon - Cartas TCGfake"]:
+            with self.subTest(name=name):
+                self.assertFalse(w.pokemon(name))
+
+    def test_scope_migration_removes_other_products_and_queued_alerts(self):
+        tcg = product()
+        toy = dict(product("456"), name="Funko - Figura Pokemon - Pikachu")
+        state = {"initialized": True, "last_count": 2,
+                 "products": {"123": tcg, "456": toy},
+                 "pending": [{"kind": "new", "product": toy}, {"kind": "new", "product": tcg}]}
+        migrated = w.scope_state(state)
+        self.assertEqual(set(migrated["products"]), {"123"})
+        self.assertEqual([e["product"]["id"] for e in migrated["pending"]], ["123"])
+        self.assertEqual(migrated["last_count"], 1)
+        self.assertEqual(migrated["product_scope"], w.PRODUCT_SCOPE)
+        self.assertEqual(len(state["products"]), 2)
+
+    def test_scope_reduction_does_not_fail_partial_scan_guard_or_alert_existing_tcg(self):
+        with tempfile.TemporaryDirectory() as directory, patch.object(w, "ROOT", Path(directory)):
+            state = {"initialized": True, "last_count": 101, "last_success": "previous-scan",
+                     "pending": [], "products": {"123": dict(product(), last_seen="previous-scan")}}
+            state["products"].update({str(i): dict(product(str(i)), name="Pokemon figure", last_seen="previous-scan")
+                                      for i in range(100)})
+            w.save_json(Path(directory) / "state.json", state)
+            with patch.object(w, "scan", return_value=({"123": product()}, 1)), patch.object(w, "notify") as send:
+                saved = w.check_once({})
+            self.assertEqual(saved["last_count"], 1)
+            self.assertEqual(set(saved["products"]), {"123"})
+            send.assert_not_called()
+
+    def test_non_tcg_watch_url_cannot_bypass_filter(self):
+        toy = dict(product("456"), name="Pokemon figure")
+        with patch.object(w, "request", return_value=tile()), patch.object(w, "detail", return_value=toy), \
+             patch.object(w.time, "sleep"):
+            products, _ = w.scan({"watch_urls": [toy["url"]]})
+        self.assertEqual(set(products), {"123"})
 
     def test_original_state_is_not_mutated_during_planning(self):
         original = w.plan_events({}, {"123": product()})

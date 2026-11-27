@@ -1,275 +1,5 @@
 {
   "products": {
-    "8081224": {
-      "id": "8081224",
-      "name": "Funko - Figura Pokémon - Squirtle",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---squirtle-8081224.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "7639815": {
-      "id": "7639815",
-      "name": "Pokémon - Cinturão de Ataque",
-      "price": 27.74,
-      "url": "https://www.continente.pt/produto/pokemon---cinturao-de-ataque-7639815.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7828170": {
-      "id": "7828170",
-      "name": "Ravensburger - Puzzle Pokémon 3x49 Peças",
-      "price": 8.24,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-pokemon-3x49-pecas-7828170.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7639914": {
-      "id": "7639914",
-      "name": "Pokémon - Peluche 21cm (vários modelos)",
-      "price": 12.49,
-      "url": "https://www.continente.pt/produto/pokemon---peluche-21cm-varios-modelos-7639914.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "7542618": {
-      "id": "7542618",
-      "name": "Puzzle XXL Pokémon 200 Peças",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/puzzle-xxl-pokemon-200-pecas-7542618.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7836641": {
-      "id": "7836641",
-      "name": "Pokémon - Figuras de Vinil (vários modelos)",
-      "price": 11.24,
-      "url": "https://www.continente.pt/produto/pokemon---figuras-de-vinil-varios-modelos-7836641.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7639818": {
-      "id": "7639818",
-      "name": "Pokémon - Bolsa Arena (vários modelos)",
-      "price": 35.24,
-      "url": "https://www.continente.pt/produto/pokemon---bolsa-arena-varios-modelos-7639818.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7646860": {
-      "id": "7646860",
-      "name": "Ravensburger - Puzzle XXL Pokémon 150 Peças",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-xxl-pokemon-150-pecas-7646860.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7646999": {
-      "id": "7646999",
-      "name": "Ravensburger - Puzzle XXL Pokémon 100 Peças",
-      "price": 10.49,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-xxl-pokemon-100-pecas-7646999.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7646855": {
-      "id": "7646855",
-      "name": "Ravensburger - Puzzle XXL Pokémon 100 Peças",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-xxl-pokemon-100-pecas-7646855.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7639912": {
-      "id": "7639912",
-      "name": "Pokémon - Jogo de Ataque Surpresa (vários modelos)",
-      "price": 26.24,
-      "url": "https://www.continente.pt/produto/pokemon---jogo-de-ataque-surpresa-varios-modelos-7639912.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7542946": {
-      "id": "7542946",
-      "name": "Ravensburger - Puzzleball 3D Pokémon 72 Peças",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzleball-3d-pokemon-72-pecas-7542946.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "7836644": {
-      "id": "7836644",
-      "name": "Pokémon - Pack 2 Figuras (vários modelos)",
-      "price": 14.99,
-      "url": "https://www.continente.pt/produto/pokemon---pack-2-figuras-varios-modelos-7836644.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8024468": {
-      "id": "8024468",
-      "name": "Pokémon - Pack 4 Figuras de Combate Kanto",
-      "price": 22.49,
-      "url": "https://www.continente.pt/produto/pokemon---pack-4-figuras-de-combate-kanto-8024468.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7639803": {
-      "id": "7639803",
-      "name": "Pokémon - Pack 3 Figuras (vários modelos)",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/pokemon---pack-3-figuras-varios-modelos-7639803.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7836643": {
-      "id": "7836643",
-      "name": "Pokémon - Pack 2 Figuras Evolution (vários modelos)",
-      "price": 29.99,
-      "url": "https://www.continente.pt/produto/pokemon---pack-2-figuras-evolution-varios-modelos-7836643.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7639802": {
-      "id": "7639802",
-      "name": "Pokémon - Figura Herói com Mecanismo (vários modelos)",
-      "price": 17.24,
-      "url": "https://www.continente.pt/produto/pokemon---figura-heroi-com-mecanismo-varios-modelos-7639802.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7639797": {
-      "id": "7639797",
-      "name": "Pokémon - Pack 2 Figuras de Combate (vários modelos)",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/pokemon---pack-2-figuras-de-combate-varios-modelos-7639797.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7729786": {
-      "id": "7729786",
-      "name": "Pokémon - Pack 2 Figuras de Combate Kanto (vários modelos)",
-      "price": 8.44,
-      "url": "https://www.continente.pt/produto/pokemon---pack-2-figuras-de-combate-kanto-varios-modelos-7729786.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7639807": {
-      "id": "7639807",
-      "name": "Pokémon - Figura com Poké Ball Clip and Go",
-      "price": 16.49,
-      "url": "https://www.continente.pt/produto/pokemon---figura-com-poke-ball-clip-and-go-7639807.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8962229": {
-      "id": "8962229",
-      "name": "Calendário do Advento de Chocolate Pokemon Mix Kinder",
-      "price": 9.99,
-      "url": "https://www.continente.pt/produto/calendario-do-advento-de-chocolate-pokemon-mix-kinder-8962229.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8021544": {
-      "id": "8021544",
-      "name": "Pokémon - Livro de Colorir com Píxeis",
-      "price": 8.76,
-      "url": "https://www.continente.pt/produto/pokemon---livro-de-colorir-com-pixeis-8021544.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7907557": {
-      "id": "7907557",
-      "name": "Pokémon - Lendárias e Míticas Aventuras para Colorir",
-      "price": 9.56,
-      "url": "https://www.continente.pt/produto/pokemon---lendarias-e-miticas-aventuras-para-colorir-7907557.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8721443": {
-      "id": "8721443",
-      "name": "LEGO Pokémon - Eevee - 72151",
-      "price": 44.99,
-      "url": "https://www.continente.pt/produto/lego-pokemon---eevee---72151-8721443.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8975170": {
-      "id": "8975170",
-      "name": "Pokémon - Mundo Transformável Farol",
-      "price": 52.49,
-      "url": "https://www.continente.pt/produto/pokemon---mundo-transformavel-farol-8975170.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8971725": {
-      "id": "8971725",
-      "name": "Pokémon - Figura Pikachu Battle Action",
-      "price": 44.99,
-      "url": "https://www.continente.pt/produto/pokemon---figura-pikachu-battle-action-8971725.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8933131": {
-      "id": "8933131",
-      "name": "LEGO Pokémon - Arcanine - 72160",
-      "price": 74.99,
-      "url": "https://www.continente.pt/produto/lego-pokemon---arcanine---72160-8933131.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8981572": {
-      "id": "8981572",
-      "name": "Ravensburger - Jogo de Memória Pokémon",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/ravensburger---jogo-de-memoria-pokemon-8981572.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8971735": {
-      "id": "8971735",
-      "name": "Pokémon - Peluche Gengar 30cm",
-      "price": 27.74,
-      "url": "https://www.continente.pt/produto/pokemon---peluche-gengar-30cm-8971735.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8933298": {
-      "id": "8933298",
-      "name": "LEGO Pokémon - Munchlax - 72150",
-      "price": 52.49,
-      "url": "https://www.continente.pt/produto/lego-pokemon---munchlax---72150-8933298.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
     "9002146": {
       "id": "9002146",
       "name": "Pokémon - Cartas TCG: Elite Trainer Box 30 Anos",
@@ -278,258 +8,6 @@
       "in_stock": false,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8580011": {
-      "id": "8580011",
-      "name": "Monopoly - Jogo de Tabuleiro Pokémon",
-      "price": 22.49,
-      "url": "https://www.continente.pt/produto/monopoly---jogo-de-tabuleiro-pokemon-8580011.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8933132": {
-      "id": "8933132",
-      "name": "LEGO Pokémon - Rayquaza - 72168",
-      "price": 97.49,
-      "url": "https://www.continente.pt/produto/lego-pokemon---rayquaza---72168-8933132.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8579276": {
-      "id": "8579276",
-      "name": "Pokémon - Peluche Charizard 30cm",
-      "price": 27.74,
-      "url": "https://www.continente.pt/produto/pokemon---peluche-charizard-30cm-8579276.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8835907": {
-      "id": "8835907",
-      "name": "Funko - Figura Pokémon - Magmar",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---magmar-8835907.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8932497": {
-      "id": "8932497",
-      "name": "Funko - Figura Pokémon - Lapras",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---lapras-8932497.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8932550": {
-      "id": "8932550",
-      "name": "Funko - Figura Pokémon - Pichu",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---pichu-8932550.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8720773": {
-      "id": "8720773",
-      "name": "Pokémon - Porta-chaves Peluche",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/pokemon---porta-chaves-peluche-8720773.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8971715": {
-      "id": "8971715",
-      "name": "Pokémon - Arena de Combate de Discos Showdown",
-      "price": 33.74,
-      "url": "https://www.continente.pt/produto/pokemon---arena-de-combate-de-discos-showdown-8971715.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8613880": {
-      "id": "8613880",
-      "name": "Ravensburger - Puzzle Pokémon 500 Peças",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-pokemon-500-pecas-8613880.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8963720": {
-      "id": "8963720",
-      "name": "Funko - Figura Pokémon - Wartortle",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---wartortle-8963720.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8969951": {
-      "id": "8969951",
-      "name": "Funko - Figura Pokémon - Charizard",
-      "price": 14.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---charizard-8969951.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8145191": {
-      "id": "8145191",
-      "name": "Pokémon - Arena de Combate Battle Spinner",
-      "price": 37.49,
-      "url": "https://www.continente.pt/produto/pokemon---arena-de-combate-battle-spinner-8145191.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8525398": {
-      "id": "8525398",
-      "name": "Funko - Figura Pokémon - Fidough",
-      "price": 15.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---fidough-8525398.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8524603": {
-      "id": "8524603",
-      "name": "Funko - Figura Pokémon - Sylveon",
-      "price": 15.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---sylveon-8524603.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8145189": {
-      "id": "8145189",
-      "name": "Pokémon - Peluche (vários modelos)",
-      "price": 22.49,
-      "url": "https://www.continente.pt/produto/pokemon---peluche-varios-modelos-8145189.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8579277": {
-      "id": "8579277",
-      "name": "Pokémon - Peluche Capitão Pikachu 21cm",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/pokemon---peluche-capitao-pikachu-21cm-8579277.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8483964": {
-      "id": "8483964",
-      "name": "Funko - Figura Pokémon - Glaceon",
-      "price": 37.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---glaceon-8483964.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8979616": {
-      "id": "8979616",
-      "name": "Funko - Figura Pokémon - Oshawott",
-      "price": 15.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---oshawott-8979616.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8979516": {
-      "id": "8979516",
-      "name": "Funko - Figura Pokémon - Charizard",
-      "price": 15.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---charizard-8979516.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8720763": {
-      "id": "8720763",
-      "name": "Pokémon - Multipack Figuras Evolution",
-      "price": 29.99,
-      "url": "https://www.continente.pt/produto/pokemon---multipack-figuras-evolution-8720763.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8721435": {
-      "id": "8721435",
-      "name": "LEGO Pokémon - Pikachu e Pokébola - 72152",
-      "price": 149.99,
-      "url": "https://www.continente.pt/produto/lego-pokemon---pikachu-e-pokebola---72152-8721435.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8720620": {
-      "id": "8720620",
-      "name": "Pokémon - Figuras Principais de Combate",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/pokemon---figuras-principais-de-combate-8720620.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8932534": {
-      "id": "8932534",
-      "name": "Funko - Figura Pokémon - Pikachu Rabugento",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---pikachu-rabugento-8932534.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8720789": {
-      "id": "8720789",
-      "name": "Pokémon - Peluche Kanto 20cm (vários modelos)",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/pokemon---peluche-kanto-20cm-varios-modelos-8720789.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8146677": {
-      "id": "8146677",
-      "name": "Funko - Figura Pokémon - Mew",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---mew-8146677.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8980321": {
-      "id": "8980321",
-      "name": "Funko - Figura Pokémon - Dragonite",
-      "price": 15.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---dragonite-8980321.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8980413": {
-      "id": "8980413",
-      "name": "Funko - Figura Pokémon - Pikachu",
-      "price": 17.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---pikachu-8980413.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8980016": {
-      "id": "8980016",
-      "name": "Funko - Figura Pokémon - Squirtle",
-      "price": 39.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---squirtle-8980016.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
     },
     "8935741": {
       "id": "8935741",
@@ -540,47 +18,11 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
     },
-    "8756897": {
-      "id": "8756897",
-      "name": "Funko - Figura Pokémon - Sylveon Nymphali Feelinara",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/funko---figura-pokemon---sylveon-nymphali-feelinara-8756897.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
     "8936481": {
       "id": "8936481",
       "name": "Pokémon - Cartas TCG Pitch Black Booster",
       "price": 5.99,
       "url": "https://www.continente.pt/produto/pokemon---cartas-tcg-pitch-black-booster-8936481.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8978488": {
-      "id": "8978488",
-      "name": "Ravensburger - Puzzle Pokémon 4 x 100 Peças",
-      "price": 12.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-pokemon-4-x-100-pecas-8978488.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8579274": {
-      "id": "8579274",
-      "name": "Pokémon - Pack 8 Figuras Battle",
-      "price": 32.24,
-      "url": "https://www.continente.pt/produto/pokemon---pack-8-figuras-battle-8579274.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8719395": {
-      "id": "8719395",
-      "name": "Pokémon - Puzzle 3D Squirtle 180 Peças",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/pokemon---puzzle-3d-squirtle-180-pecas-8719395.html",
       "in_stock": true,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
@@ -594,30 +36,12 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T01:11:28Z"
     },
-    "8720806": {
-      "id": "8720806",
-      "name": "Pokémon - Playset Squish-a-longs",
-      "price": 26.24,
-      "url": "https://www.continente.pt/produto/pokemon---playset-squish-a-longs-8720806.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
     "9041780": {
       "id": "9041780",
       "name": "Pokémon - Cartas TCG: Sleeved Booster Delta Reign",
       "price": 4.49,
       "in_stock": false,
       "url": "https://www.continente.pt/produto/pokemon---cartas-tcg-sleeved-booster-delta-reign-9041780.html",
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8981567": {
-      "id": "8981567",
-      "name": "Ravensburger - Puzzle Ball 3D Luz Noturna Pokémon",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-ball-3d-luz-noturna-pokemon-8981567.html",
-      "in_stock": true,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
     },
@@ -630,24 +54,6 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T01:11:28Z"
     },
-    "8586377": {
-      "id": "8586377",
-      "name": "4D Build - Puzzle 3D Pokémon - Pikachu 201 Peças",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/4d-build---puzzle-3d-pokemon---pikachu-201-pecas-8586377.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8720794": {
-      "id": "8720794",
-      "name": "Pokémon - Peluche Evolução Eevee 20cm (vários modelos)",
-      "price": 24.99,
-      "url": "https://www.continente.pt/produto/pokemon---peluche-evolucao-eevee-20cm-varios-modelos-8720794.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
     "9002162": {
       "id": "9002162",
       "name": "Pokémon - Cartas TCG: Pack 2 Blister 30 Anos",
@@ -656,51 +62,6 @@
       "in_stock": false,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8971761": {
-      "id": "8971761",
-      "name": "Pokémon - Pack 5 Figuras 30º Aniversário",
-      "price": 32.24,
-      "url": "https://www.continente.pt/produto/pokemon---pack-5-figuras-30-aniversario-8971761.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8613878": {
-      "id": "8613878",
-      "name": "Ravensburger - Puzzle Ball 3D Pokémon 72 Peças",
-      "price": 11.99,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-ball-3d-pokemon-72-pecas-8613878.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8721437": {
-      "id": "8721437",
-      "name": "LEGO Pokémon - Venusaur, Charizard e Blastoise - 72153",
-      "price": 487.49,
-      "url": "https://www.continente.pt/produto/lego-pokemon---venusaur-charizard-e-blastoise---72153-8721437.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8605756": {
-      "id": "8605756",
-      "name": "Pokémon - Pack 6 Figuras de Combate Kanto",
-      "price": 26.24,
-      "url": "https://www.continente.pt/produto/pokemon---pack-6-figuras-de-combate-kanto-8605756.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8720622": {
-      "id": "8720622",
-      "name": "Pokémon - Pack 4 Figuras Battle Ready",
-      "price": 22.49,
-      "url": "https://www.continente.pt/produto/pokemon---pack-4-figuras-battle-ready-8720622.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
     },
     "8936503": {
       "id": "8936503",
@@ -756,15 +117,6 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
     },
-    "8586399": {
-      "id": "8586399",
-      "name": "4D Build - Puzzle 3D Pokémon - Charmander 241 Peças",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/4d-build---puzzle-3d-pokemon---charmander-241-pecas-8586399.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
     "8935792": {
       "id": "8935792",
       "name": "Pokémon - Cartas TCG Chaos Rising Checklane Blister",
@@ -774,29 +126,11 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
     },
-    "8981556": {
-      "id": "8981556",
-      "name": "Ravensburger - Puzzle Pokémon Breakout 3 1000 Peças",
-      "price": 12.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-pokemon-breakout-3-1000-pecas-8981556.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
     "8883406": {
       "id": "8883406",
       "name": "Pokémon - Cartas TCG Mega Brave  - Versão Japonesa",
       "price": 3.74,
       "url": "https://www.continente.pt/produto/pokemon---cartas-tcg-mega-brave----versao-japonesa-8883406.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8971877": {
-      "id": "8971877",
-      "name": "4D Build - Puzzle 3D Pokémon - Eevee 238 Peças",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/4d-build---puzzle-3d-pokemon---eevee-238-pecas-8971877.html",
       "in_stock": true,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
@@ -819,15 +153,6 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
     },
-    "8586376": {
-      "id": "8586376",
-      "name": "4D Build - Puzzle 3D Pokémon - Bulbasaur 195 Peças",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/4d-build---puzzle-3d-pokemon---bulbasaur-195-pecas-8586376.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
     "8883706": {
       "id": "8883706",
       "name": "Pokémon - Cartas TCG Cyber Judge - Versão Japonesa",
@@ -842,15 +167,6 @@
       "name": "Pokémon - Cartas TCG Night Wanderer - Versão Japonesa",
       "price": 3.74,
       "url": "https://www.continente.pt/produto/pokemon---cartas-tcg-night-wanderer---versao-japonesa-8883703.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8971945": {
-      "id": "8971945",
-      "name": "4D Build - Puzzle 3D Pokémon - Charizard 223 Peças",
-      "price": 33.74,
-      "url": "https://www.continente.pt/produto/4d-build---puzzle-3d-pokemon---charizard-223-pecas-8971945.html",
       "in_stock": true,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
@@ -891,15 +207,6 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
     },
-    "8977733": {
-      "id": "8977733",
-      "name": "4D Build - Puzzle 3D Pokémon - Meowth 137 Peças",
-      "price": 18.74,
-      "url": "https://www.continente.pt/produto/4d-build---puzzle-3d-pokemon---meowth-137-pecas-8977733.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
     "8918171": {
       "id": "8918171",
       "name": "Pokémon - Cartas TCG Booster Abyss Eye - Versão Japonesa",
@@ -918,38 +225,11 @@
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
     },
-    "8720765": {
-      "id": "8720765",
-      "name": "Pokémon - Pack 4 Figuras Mini Squish-a-longs",
-      "price": 14.99,
-      "url": "https://www.continente.pt/produto/pokemon---pack-4-figuras-mini-squish-a-longs-8720765.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
     "8883700": {
       "id": "8883700",
       "name": "Pokémon - Cartas TCG Nihil Zero Pack - Versão Japonesa",
       "price": 3.74,
       "url": "https://www.continente.pt/produto/pokemon---cartas-tcg-nihil-zero-pack---versao-japonesa-8883700.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8981581": {
-      "id": "8981581",
-      "name": "Ravensburger - Puzzle 3D Pokémon Pikachu com Orelhas 81 Peças",
-      "price": 14.99,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-3d-pokemon-pikachu-com-orelhas-81-pecas-8981581.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8959384": {
-      "id": "8959384",
-      "name": "Ravensburger - Puzzle XXL Pokémon Scarlet & Violet Legends 100 Peças",
-      "price": 9.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-xxl-pokemon-scarlet-violet-legends-100-pecas-8959384.html",
       "in_stock": true,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T10:43:47Z"
@@ -962,335 +242,12 @@
       "in_stock": true,
       "first_seen": "2026-11-27T01:01:26Z",
       "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8981565": {
-      "id": "8981565",
-      "name": "Ravensburger - Puzzle Pokémon Breakout 1: Eevee e o Parque 1000 Peças",
-      "price": 12.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-pokemon-breakout-1-eevee-e-o-parque-1000-pecas-8981565.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T01:11:28Z"
-    },
-    "8836499": {
-      "id": "8836499",
-      "name": "Mochila Bullbasaur Pokémon",
-      "price": 24.99,
-      "url": "https://www.continente.pt/produto/mochila-bullbasaur-pokemon-8836499.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8836501": {
-      "id": "8836501",
-      "name": "Mochila Eevee Pokémon",
-      "price": 24.99,
-      "url": "https://www.continente.pt/produto/mochila-eevee-pokemon-8836501.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8836498": {
-      "id": "8836498",
-      "name": "Mochila Squirtle Pokémon",
-      "price": 24.99,
-      "url": "https://www.continente.pt/produto/mochila-squirtle-pokemon-8836498.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8836500": {
-      "id": "8836500",
-      "name": "Mochila Charmander Pokémon",
-      "price": 24.99,
-      "url": "https://www.continente.pt/produto/mochila-charmander-pokemon-8836500.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8836497": {
-      "id": "8836497",
-      "name": "Mochila Pikachu Pokémon",
-      "price": 24.99,
-      "url": "https://www.continente.pt/produto/mochila-pikachu-pokemon-8836497.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8981566": {
-      "id": "8981566",
-      "name": "Ravensburger - Puzzle Pokémon Breakout 2: Jolteon e a Central Elétrica Recuperada 1000 Peças",
-      "price": 12.74,
-      "url": "https://www.continente.pt/produto/ravensburger---puzzle-pokemon-breakout-2-jolteon-e-a-central-eletrica-recuperada-1000-pecas-8981566.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8670493": {
-      "id": "8670493",
-      "name": "Mochila Catch All Pokémon",
-      "price": 32.99,
-      "url": "https://www.continente.pt/produto/mochila-catch-all-pokemon-8670493.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8703617": {
-      "id": "8703617",
-      "name": "Nintendo Pokémon Acessório Máscara Pikachu Disney",
-      "price": 8,
-      "url": "https://www.continente.pt/produto/nintendo-pokemon-acessorio-mascara-pikachu-disney-8703617.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8703616": {
-      "id": "8703616",
-      "name": "Nintendo Pokémon Acessório Bandolete com Orelhas de Pikachu Disney",
-      "price": 8,
-      "url": "https://www.continente.pt/produto/nintendo-pokemon-acessorio-bandolete-com-orelhas-de-pikachu-disney-8703616.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8667322": {
-      "id": "8667322",
-      "name": "Jogo Nintendo Switch 2 Pokémon Pokopia Nintendo",
-      "price": 79.99,
-      "url": "https://www.continente.pt/produto/jogo-nintendo-switch-2-pokemon-pokopia-nintendo-8667322.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8703615": {
-      "id": "8703615",
-      "name": "Nintendo Pokémon Fantasia Pikachu Clássico 7-8 Anos Disney",
-      "price": 25,
-      "url": "https://www.continente.pt/produto/nintendo-pokemon-fantasia-pikachu-classico-7-8-anos-disney-8703615.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8703614": {
-      "id": "8703614",
-      "name": "Nintendo Pokémon Fantasia Pikachu Clássico 10-12 Anos Disney",
-      "price": 25,
-      "url": "https://www.continente.pt/produto/nintendo-pokemon-fantasia-pikachu-classico-10-12-anos-disney-8703614.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "6609824": {
-      "id": "6609824",
-      "name": "Jogo Nintendo Switch Pokémon Lets Go, Pikachu! Nintendo",
-      "price": 38.99,
-      "url": "https://www.continente.pt/produto/jogo-nintendo-switch-pokemon-lets-go-pikachu-nintendo-6609824.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8384325": {
-      "id": "8384325",
-      "name": "Jogo Nintendo Switch Pokémon Legends: Z-A Nintendo",
-      "price": 38.99,
-      "url": "https://www.continente.pt/produto/jogo-nintendo-switch-pokemon-legends-z-a-nintendo-8384325.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7416605": {
-      "id": "7416605",
-      "name": "Jogo Nintendo Switch Pokémon Legends: Arceus Nintendo",
-      "price": 38.99,
-      "url": "https://www.continente.pt/produto/jogo-nintendo-switch-pokemon-legends-arceus-nintendo-7416605.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8125555": {
-      "id": "8125555",
-      "name": "Pokémon Scarlet / Pokémon Violet - Guia de Paldea",
-      "price": 13.96,
-      "url": "https://www.continente.pt/produto/pokemon-scarlet-pokemon-violet---guia-de-paldea-8125555.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8181549": {
-      "id": "8181549",
-      "name": "Pokémon - Como Desenhar?",
-      "price": 12.76,
-      "url": "https://www.continente.pt/produto/pokemon---como-desenhar-8181549.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8170974": {
-      "id": "8170974",
-      "name": "Pokémon - Uma Treinadora em Paldea",
-      "price": 9.72,
-      "url": "https://www.continente.pt/produto/pokemon---uma-treinadora-em-paldea-8170974.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7925306": {
-      "id": "7925306",
-      "name": "Pokémon - Pesadelo Lendário",
-      "price": 11.16,
-      "url": "https://www.continente.pt/produto/pokemon---pesadelo-lendario-7925306.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8368371": {
-      "id": "8368371",
-      "name": "Pokémon - Uma Grande Aventura em Paldea",
-      "price": 9.56,
-      "url": "https://www.continente.pt/produto/pokemon---uma-grande-aventura-em-paldea-8368371.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7864256": {
-      "id": "7864256",
-      "name": "Pokémon - O Atlas do Ash",
-      "price": 15.56,
-      "url": "https://www.continente.pt/produto/pokemon---o-atlas-do-ash-7864256.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8204034": {
-      "id": "8204034",
-      "name": "Pokémon - Super Ultra Extra Enciclopédia",
-      "price": 21.96,
-      "url": "https://www.continente.pt/produto/pokemon---super-ultra-extra-enciclopedia-8204034.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8147548": {
-      "id": "8147548",
-      "name": "Pokémon - Região de Galar | Confronto Gigantamax",
-      "price": 9.72,
-      "url": "https://www.continente.pt/produto/pokemon---regiao-de-galar-confronto-gigantamax-8147548.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8081239": {
-      "id": "8081239",
-      "name": "Pokémon - Livro de Atividades de Sónia Sander",
-      "price": 13.16,
-      "url": "https://www.continente.pt/produto/pokemon---livro-de-atividades-de-sonia-sander-8081239.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "7925305": {
-      "id": "7925305",
-      "name": "Pokémon - Vamos Apanhar o Quê?!",
-      "price": 11.16,
-      "url": "https://www.continente.pt/produto/pokemon---vamos-apanhar-o-que-7925305.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8199383": {
-      "id": "8199383",
-      "name": "Pokémon - Região de Johto - Ash Ketchum, Detetive",
-      "price": 9.72,
-      "url": "https://www.continente.pt/produto/pokemon---regiao-de-johto---ash-ketchum-detetive-8199383.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8773609": {
-      "id": "8773609",
-      "name": "Pokémon - O Grande Livros de Factos de The Pokémon Company",
-      "price": 14.92,
-      "url": "https://www.continente.pt/produto/pokemon---o-grande-livros-de-factos-de-the-pokemon-company-8773609.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8524604": {
-      "id": "8524604",
-      "name": "Pokémon - 365 Dias para Seres o Melhor Treinador Pokémon!",
-      "price": 12.76,
-      "url": "https://www.continente.pt/produto/pokemon---365-dias-para-seres-o-melhor-treinador-pokemon-8524604.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8470500": {
-      "id": "8470500",
-      "name": "Pokémon - Herói Local",
-      "price": 9.72,
-      "url": "https://www.continente.pt/produto/pokemon---heroi-local-8470500.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8668953": {
-      "id": "8668953",
-      "name": "Pokémon - 1001 Autocolantes Épicos",
-      "price": 10.6,
-      "url": "https://www.continente.pt/produto/pokemon---1001-autocolantes-epicos-8668953.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8926332": {
-      "id": "8926332",
-      "name": "Pokémon - Livro de Piadas de Peter Klein",
-      "price": 10.04,
-      "url": "https://www.continente.pt/produto/pokemon---livro-de-piadas-de-peter-klein-8926332.html",
-      "in_stock": false,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8667311": {
-      "id": "8667311",
-      "name": "Pokémon - O Guia das Evoluções",
-      "price": 12.76,
-      "url": "https://www.continente.pt/produto/pokemon---o-guia-das-evolucoes-8667311.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "8447977": {
-      "id": "8447977",
-      "name": "Pokémon - Onde está a Eevee?",
-      "price": 12.76,
-      "url": "https://www.continente.pt/produto/pokemon---onde-esta-a-eevee-8447977.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "5964924": {
-      "id": "5964924",
-      "name": "Pokémon Go - O Guia Não-Oficial",
-      "price": 7.55,
-      "url": "https://www.continente.pt/produto/pokemon-go---o-guia-nao-oficial-5964924.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
-    },
-    "9045792": {
-      "id": "9045792",
-      "name": "Pokémon - Guia Essencial da Região de Paldea de Katherine Parkes",
-      "price": 13.96,
-      "url": "https://www.continente.pt/produto/pokemon---guia-essencial-da-regiao-de-paldea-de-katherine-parkes-9045792.html",
-      "in_stock": true,
-      "first_seen": "2026-11-27T01:01:26Z",
-      "last_seen": "2026-11-27T10:43:47Z"
     }
   },
   "pending": [],
   "initialized": true,
   "last_success": "2026-11-27T10:43:47Z",
-  "last_count": 123,
-  "last_pages": 4
+  "last_count": 19,
+  "last_pages": 4,
+  "product_scope": "pokemon-cartas-tcg-v1"
 }

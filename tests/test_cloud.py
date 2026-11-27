@@ -14,7 +14,7 @@ import watcher as w
 
 
 def product():
-    return {"id": "123", "name": "Pokemon cards", "price": 5.99,
+    return {"id": "123", "name": "Pokemon - Cartas TCG Booster", "price": 5.99,
             "url": "https://www.continente.pt/produto/pokemon-123.html", "in_stock": False}
 
 

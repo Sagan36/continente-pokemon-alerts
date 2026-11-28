@@ -253,23 +253,12 @@
       "last_seen": "2026-11-28T02:14:25Z"
     }
   },
-  "pending": [
-    {
-      "event_id": "2b3f9be2aa0ba2ef02501a0a",
-      "kind": "new",
-      "product": {
-        "id": "9041792",
-        "name": "Pokémon - Cartas TCG: Elite Trainer Box Delta Reign",
-        "price": 52.49,
-        "url": "https://www.continente.pt/produto/pokemon---cartas-tcg-elite-trainer-box-delta-reign-9041792.html",
-        "in_stock": false
-      },
-      "detected_at": "2026-11-28T02:14:25Z"
-    }
-  ],
+  "pending": [],
   "initialized": true,
   "last_success": "2026-11-28T02:14:25Z",
   "last_count": 28,
   "last_pages": 4,
-  "product_scope": "pokemon-cartas-tcg-v1"
+  "product_scope": "pokemon-cartas-tcg-v1",
+  "delivery_day": "2026-11-28",
+  "deliveries_today": 1
 }

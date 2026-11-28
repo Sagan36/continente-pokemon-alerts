@@ -260,5 +260,7 @@
   "last_pages": 4,
   "product_scope": "pokemon-cartas-tcg-v1",
   "delivery_day": "2026-11-28",
-  "deliveries_today": 1
+  "deliveries_today": 1,
+  "cloud_consecutive_errors": 1,
+  "cloud_last_error_at": "2026-11-28T10:37:58Z"
 }
